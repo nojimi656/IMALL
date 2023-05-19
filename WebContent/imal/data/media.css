@@ -1,0 +1,264 @@
+@media screen and (min-width: 1200px) {
+
+  .mobile-only {
+    display: none;
+  }
+
+  .pc-only {
+    display: block;
+  }
+
+  header {
+    height: 90px;
+  }
+
+  header> .inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1.8rem 0;
+  }
+
+  header #gnb {
+    z-index: 20;
+    position: absolute;
+    top: 90px;
+    left: -100%;
+    width: 100%;
+    max-width: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+  }
+
+  header #gnb .inner {
+    padding: 0;
+    width: 1200px;
+    margin: 0 auto 2rem;
+  }
+
+  header #gnb .inner> :nth-child(1) {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  header #gnb .inner> :nth-child(1)> :nth-child(1) {
+    position: absolute;
+    top: 25px;
+    left: 0;
+/*    background: rgba(249, 228, 200, 1); */
+/*    background: #808080; */
+  }
+
+  header #gnb .inner> :nth-child(2) {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header #gnb .inner> :nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header #gnb .gnb-1 {
+    padding: 1rem 0;
+    width: 330px;
+  }
+
+  header #gnb .gnb-2 {
+    padding: 1rem 0 2rem;
+    border-top: 0;
+  }
+
+  header #gnb .gnb-image {
+    width: 330px;
+    height: 190px;
+  }
+
+  header .search-container {
+    top: 90px;
+  }
+
+  header .search-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  main {
+    margin-top: 90px;
+  }
+  
+  main .swiper-container {
+    position: relative;
+    height: 800px;
+  }
+  
+  main .swiper-container .slide-play {
+    right: 20%;
+  }
+
+  
+  .products {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
+
+  .review {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .banner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1.2rem;
+  }
+
+  .banner a {
+    background: url('https://www.casa.co.kr/UploadFiles/Editor/3/10/1646883988223.jpg') no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+
+  .banner .banner-text {
+    padding: 12rem 5% 0;
+  }
+
+  .magazine {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .magazine> :first-child,
+  .magazine .inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .magazine .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .magazine .swiper-container {
+    width: 580px;
+  }
+
+  .magazine .magazine-sub {
+    margin: 2rem 0 1rem;
+  }
+
+  .sns {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sns .inner .swiper-slide {
+    height: 430px;
+  }
+
+  .sns .swiper-button-next,
+  .sns .swiper-button-prev {
+    height: 430px;
+  }
+
+  .show h2 {
+    width: 1200px;
+    margin: 0 auto 1rem;
+  }
+
+  .show .inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .show .show-con {
+    height: 500px;
+  }
+
+  .show .show-in {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .show .show-in .show-pic {
+    height: 500px;
+    grid-column: 1 / 4;
+  }
+
+  .show .show-in .show-desc {
+    height: 500px;
+    grid-column: 4 / 5;
+    padding: 9rem 5%;
+    text-align: center;
+  }
+
+  .show .show-in .show-desc button {
+    margin: 0 auto;
+  }
+
+  .show .show-in .show-pic2 {
+    height: 500px;
+    grid-column: 5 / 6;
+  }
+
+  .notice {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .links ul {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  footer .inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer .inner> :last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .inner ul.customer {
+    margin: 2rem 0;
+    text-align: right;
+  }
+
+
+  .pop-up .inner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+
+  .pop-up .pop-txt {
+    border-radius: 0 0 20px 20px;
+  }
+
+
+}
